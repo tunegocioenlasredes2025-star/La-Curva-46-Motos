@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>La Curva 46 Motos · Repuestos y accesorios en Ituzaingó</title>
+<meta name="description" content="Repuestos y accesorios para moto en Ituzaingó. Cnel. Brandsen 1097. 4,6 con 561 opiniones en Google. Preguntá por tu pieza y te decimos si la tenemos.">
+<meta name="theme-color" content="#0E0E0E">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* del cartel: negro de fondo, el 46 en amarillo, la pared naranja */
+  --negro:#0E0E0E;
+  --negro-2:#1A1A1A;
+  --negro-3:#242424;
+  --amarillo:#F5D311;
+  --amarillo-osc:#C9AC08;
+  --naranja:#E2701F;
+  --rojo:#D9232B;
+  --hueso:#F2EFE9;
+  --hueso-2:#B9B4AC;
+  --gris:#8C8780;
+  --linea:#2E2E2E;
+  --wa:#25d366;
+  --r:14px;
+  --ancho:1120px;
+  --f:'Figtree',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--negro);color:var(--hueso);font-family:var(--f);font-size:16px;line-height:1.5;overflow-x:hidden}
+img{max-width:100%;display:block;height:auto}
+a{color:inherit;text-decoration:none}
+.caja{width:100%;max-width:var(--ancho);margin:0 auto;padding:0 18px}
+section{padding:46px 0}
+h1,h2,h3{line-height:1.03;letter-spacing:-.03em;font-weight:900}
+h1{font-size:clamp(35px,9.6vw,62px)}
+h2{font-size:clamp(26px,6.8vw,40px)}
+h3{font-size:18px;letter-spacing:-.015em;font-weight:800}
+p{text-wrap:pretty}
+.rotulo{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--amarillo);border:1px solid rgba(245,211,17,.32);background:rgba(245,211,17,.08);
+  border-radius:99px;padding:5px 12px;margin-bottom:12px}
+.sub{color:var(--gris);font-size:15.5px;margin-top:11px;max-width:56ch}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:15px 19px;border-radius:11px;font-size:15px;font-weight:800;
+  border:2px solid transparent;cursor:pointer;line-height:1;font-family:inherit}
+.btn svg{width:19px;height:19px;flex:none}
+.btn-am{background:var(--amarillo);color:#171200}
+.btn-wa{background:var(--wa);color:#03351b}
+.btn-linea{border-color:var(--linea);color:var(--hueso);background:transparent}
+.btn-chico{padding:10px 14px;font-size:14px;border-radius:9px}
+.btn:focus-visible{outline:3px solid var(--amarillo);outline-offset:2px}
+
+/* ---------- barra ---------- */
+.top{position:sticky;top:0;z-index:40;background:rgba(14,14,14,.94);backdrop-filter:blur(9px);border-bottom:1px solid var(--linea)}
+.top .caja{display:flex;align-items:center;gap:12px;height:60px}
+.marca{display:flex;align-items:center;gap:10px;margin-right:auto;min-width:0}
+.iso{width:38px;height:38px;flex:none}
+.marca b{font-size:16.5px;font-weight:900;letter-spacing:-.03em;line-height:1.05;display:block}
+.marca small{display:block;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--gris);font-weight:700}
+.solo-gr{display:none}
+@media(min-width:760px){.solo-gr{display:inline-flex}}
+
+/* ---------- portada ----------
+   Sin foto del frente: la unica que hay es una captura de Street View, con el
+   copyright de Google. Se reemplaza el bloque .grafico por la foto propia. */
+.hero{padding:44px 0 6px;position:relative;overflow:hidden;
+  background:radial-gradient(120% 90% at 18% 0%, rgba(226,112,31,.22) 0%, transparent 62%),var(--negro)}
+.hero h1 em{font-style:normal;color:var(--amarillo)}
+.hero .bajada{color:var(--hueso-2);font-size:16.5px;margin-top:14px;max-width:44ch;font-weight:500}
+.sellos{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.sello{display:inline-flex;align-items:center;gap:7px;background:var(--negro-2);border:1px solid var(--linea);
+  border-radius:99px;padding:8px 13px;font-size:13.5px;font-weight:700}
+.sello svg{width:16px;height:16px;flex:none}
+.sello .estrella{color:var(--amarillo)}
+.sello b{color:var(--hueso)}
+.sello span{color:var(--gris);font-weight:600}
+.acciones{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.acciones .btn{flex:1 1 190px}
+.grafico{margin:36px -18px -6px;padding:26px 18px 0;display:flex;justify-content:center;overflow:hidden}
+.grafico .n46{width:min(78vw,340px);height:auto;filter:drop-shadow(0 22px 44px rgba(245,211,17,.22));transform:translateY(16px)}
+
+/* ---------- que tenemos ---------- */
+.items{display:grid;gap:12px;margin-top:24px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.item{border:1px solid var(--linea);border-radius:var(--r);padding:24px;background:var(--negro-2)}
+.item .ico{width:46px;height:46px;border-radius:11px;display:grid;place-items:center;
+  background:rgba(245,211,17,.1);color:var(--amarillo);margin-bottom:14px}
+.item .ico svg{width:24px;height:24px}
+.item p{color:var(--gris);font-size:14.5px;margin-top:7px}
+
+/* la pieza que no sabés cómo se llama: el bloque fuerte */
+.pieza{margin-top:26px;border-radius:var(--r);padding:28px;background:var(--amarillo);color:#171200}
+.pieza h3{font-size:clamp(21px,5.2vw,28px);letter-spacing:-.025em}
+.pieza p{margin-top:9px;font-size:15.5px;font-weight:600;color:#3D3000;max-width:48ch}
+.pieza .btn{margin-top:18px;background:#171200;color:var(--amarillo)}
+
+/* ---------- por que ---------- */
+.franja{background:var(--negro-2);border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
+.motivos{display:grid;gap:12px;margin-top:24px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.motivo{background:var(--negro);border:1px solid var(--linea);border-radius:var(--r);padding:24px}
+.motivo b{display:block;font-size:16.5px;font-weight:800;letter-spacing:-.015em;margin-bottom:6px}
+.motivo p{color:var(--gris);font-size:14.5px}
+.motivo .n{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:9px;
+  background:var(--amarillo);color:#171200;font-weight:900;font-size:15px;margin-bottom:14px}
+
+/* ---------- opiniones ---------- */
+.ops{display:grid;gap:12px;margin-top:24px;grid-template-columns:repeat(auto-fit,minmax(265px,1fr))}
+.op{border:1px solid var(--linea);border-radius:var(--r);padding:24px;background:var(--negro-2)}
+.op .estrellas{color:var(--amarillo);font-size:14px;letter-spacing:.08em;margin-bottom:9px}
+.op p{font-size:15px;color:var(--hueso-2)}
+.op cite{display:block;margin-top:11px;font-style:normal;font-size:13px;color:var(--gris);font-weight:700}
+
+/* ---------- donde ---------- */
+.donde{display:grid;gap:22px}
+@media(min-width:860px){.donde{grid-template-columns:1fr 1fr;align-items:start}}
+.dato{display:flex;gap:13px;padding:15px 0;border-bottom:1px solid var(--linea);align-items:flex-start}
+.dato:last-child{border-bottom:0}
+.dato svg{width:20px;height:20px;flex:none;color:var(--amarillo);margin-top:2px}
+.dato b{display:block;font-size:15.5px;font-weight:800}
+.dato span{display:block;color:var(--gris);font-size:14.5px;margin-top:2px}
+.mapa{border:1px solid var(--linea);border-radius:var(--r);overflow:hidden;min-height:300px}
+.mapa iframe{width:100%;height:100%;min-height:300px;border:0;display:block;filter:grayscale(.25)}
+
+.pie{background:#070707;color:var(--gris);padding:34px 0 26px;font-size:14px;border-top:1px solid var(--linea)}
+.pie .caja{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center}
+.pie b{color:var(--hueso)}
+.pie .firma{font-size:12.5px}
+.pie .firma a{color:var(--hueso-2);text-decoration:underline}
+
+.flota{position:fixed;right:15px;bottom:15px;z-index:50;box-shadow:0 10px 26px -8px rgba(0,0,0,.8)}
+@media(min-width:900px){.flota{right:24px;bottom:24px}}
+@media(prefers-reduced-motion:no-preference){
+  .rev{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+  .rev.in{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<svg style="display:none">
+  <!-- el isotipo: la chapa negra con el 46 en amarillo, como el cartel -->
+  <symbol id="iso" viewBox="0 0 64 64">
+    <rect width="64" height="64" rx="14" fill="#0E0E0E" stroke="#2E2E2E"/>
+    <text x="32" y="45" text-anchor="middle" font-family="Figtree,sans-serif" font-size="34"
+          font-weight="900" font-style="italic" letter-spacing="-2" fill="#F5D311">46</text>
+  </symbol>
+  <symbol id="n46" viewBox="0 0 320 200">
+    <text x="160" y="160" text-anchor="middle" font-family="Figtree,sans-serif" font-size="180"
+          font-weight="900" font-style="italic" letter-spacing="-10" fill="#F5D311">46</text>
+  </symbol>
+  <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2m5.8 14.16c-.24.68-1.42 1.3-1.95 1.34-.5.04-.98.22-3.3-.69-2.78-1.09-4.54-3.94-4.68-4.12-.13-.18-1.11-1.48-1.11-2.82 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34h.52c.17 0 .39-.6.6.46.24.53.8 1.87.87 2 .07.14.11.29.02.47-.9.18-.14.29-.27.45l-.4.47c-.13.13-.27.28-.12.55.15.27.66 1.09 1.42 1.77.98.87 1.8 1.14 2.07 1.27.27.14.42.11.58-.07.16-.18.67-.78.85-1.05.18-.27.36-.22.6-.13.25.09 1.57.74 1.84.87.27.14.45.2.51.31.07.11.07.64-.17 1.32"/></symbol>
+  <symbol id="tel" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.39 21 3 13.61 3 4.5c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02z"/></symbol>
+  <symbol id="pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7m0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5"/></symbol>
+  <symbol id="reloj" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m1 10.6 4 2.3-.9 1.6L11 13V6h2z"/></symbol>
+  <symbol id="star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 17.27 5.18 3.13-1.37-5.89 4.57-3.96-6.02-.51L12 4.5 9.64 10.04l-6.02.51 4.57 3.96-1.37 5.89z"/></symbol>
+  <symbol id="moto" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8m-14 0a4 4 0 1 0 0 8 4 4 0 0 0 0-8m14-2 1.5-4H18l-.5 1.4H13l-1-1.4H7v2h4l1 1.4-2.2 3.1A5.9 5.9 0 0 0 5 10H3v2h2a4 4 0 0 1 3.9 3.2l.1.8h2l.2-1c.3-1.7 1.4-3.1 2.9-3.8l1.3 1.8A6 6 0 0 0 13 18h2a4 4 0 1 1 4-4z"/></symbol>
+  <symbol id="casco" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3a9 9 0 0 1 9 9v3a3 3 0 0 1-3 3h-1.5l-.9-2.3a2 2 0 0 0-1.9-1.3H8a5 5 0 0 1-5-5 9 9 0 0 1 9-9m-3.5 7A2.5 2.5 0 0 0 6 12.5h7.5a7 7 0 0 0 5.2-2.3A7 7 0 0 0 12 6a7 7 0 0 0-3.5 4"/></symbol>
+  <symbol id="llave" viewBox="0 0 24 24"><path fill="currentColor" d="M21.7 18.3 13.4 10a6.5 6.5 0 0 0-8.9-8.2l3.7 3.7-2.1 2.1-3.7-3.7A6.5 6.5 0 0 0 10.6 13l8.3 8.3a2 2 0 0 0 2.8-2.8z"/></symbol>
+  <symbol id="chat" viewBox="0 0 24 24"><path fill="currentColor" d="M4 3h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4V5a2 2 0 0 1 2-2m3 5v2h10V8zm0 4v2h7v-2z"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="caja">
+    <a class="marca" href="#">
+      <svg class="iso"><use href="#iso"/></svg>
+      <span>
+        <b>La Curva 46 Motos</b>
+        <small>Brandsen 1097 · Ituzaingó</small>
+      </span>
+    </a>
+    <a class="btn btn-linea btn-chico solo-gr" href="#que">Qué tenemos</a>
+    <a class="btn btn-am" href="tel:01146249663">
+      <svg><use href="#tel"/></svg> Llamar
+    </a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ portada ============ -->
+<section class="hero">
+  <div class="caja">
+    <span class="rotulo">Cnel. Brandsen 1097 · Ituzaingó</span>
+    <h1>Repuestos y<br>accesorios para<br>tu <em>moto</em>.</h1>
+    <p class="bajada">Traé la pieza, el modelo o una foto. Si la tenemos, salís con ella puesta.</p>
+
+    <div class="sellos">
+      <span class="sello">
+        <svg class="estrella"><use href="#star"/></svg>
+        <b>4,6</b><span>· 561 opiniones en Google</span>
+      </span>
+      <span class="sello"><b>Sobre Brandsen</b><span>a media cuadra de Quesada</span></span>
+    </div>
+
+    <div class="acciones">
+      <a class="btn btn-am" href="tel:01146249663">
+        <svg><use href="#tel"/></svg> 011 4624-9663
+      </a>
+      <a class="btn btn-linea" href="#donde">
+        <svg><use href="#pin"/></svg> Cómo llegar
+      </a>
+    </div>
+
+    <div class="grafico rev">
+      <svg class="n46" viewBox="0 0 320 200"><use href="#n46"/></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ que tenemos ============ -->
+<section id="que">
+  <div class="caja">
+    <span class="rotulo">Qué tenemos</span>
+    <h2>Repuestos y<br>accesorios.</h2>
+    <p class="sub">Las dos cosas que dice el cartel desde siempre, y la tercera que no está escrita en ningún lado.</p>
+
+    <div class="items">
+      <article class="item rev">
+        <div class="ico"><svg><use href="#llave"/></svg></div>
+        <h3>Repuestos</h3>
+        <p>Lo que se rompe, lo que se gasta y lo que hay que cambiar en el service.</p>
+      </article>
+      <article class="item rev">
+        <div class="ico"><svg><use href="#casco"/></svg></div>
+        <h3>Accesorios</h3>
+        <p>Todo lo que se le suma a la moto y lo que usás vos arriba de ella.</p>
+      </article>
+      <article class="item rev">
+        <div class="ico"><svg><use href="#chat"/></svg></div>
+        <h3>Que te sepan atender</h3>
+        <p>“Saben de lo que venden” es de las frases que más se repiten en las opiniones. No es poco en este rubro.</p>
+      </article>
+    </div>
+
+    <div class="pieza rev">
+      <h3>¿No sabés cómo se llama la pieza?</h3>
+      <p>Pasá con la moto, o traé la pieza vieja en la mano. Con eso alcanza: te decimos si la tenemos y cuánto sale, sin vueltas.</p>
+      <a class="btn" href="tel:01146249663"><svg><use href="#tel"/></svg> Llamanos y preguntá</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ por que ============ -->
+<section class="franja">
+  <div class="caja">
+    <span class="rotulo">Por qué acá</span>
+    <h2>561 personas<br>ya opinaron.</h2>
+    <p class="sub">Y el promedio quedó en 4,6. Estas tres cosas son las que más se repiten.</p>
+
+    <div class="motivos">
+      <article class="motivo rev">
+        <span class="n">1</span>
+        <b>El surtido</b>
+        <p>“Siempre consigo lo que necesito.” Es lo que más se agradece cuando la moto es el laburo.</p>
+      </article>
+      <article class="motivo rev">
+        <span class="n">2</span>
+        <b>El precio</b>
+        <p>“El precio es acorde.” Ni el más barato ni el que te ve la cara: el que corresponde.</p>
+      </article>
+      <article class="motivo rev">
+        <span class="n">3</span>
+        <b>Que esté abierto</b>
+        <p>“Siempre que fui estaba abierto.” Parece una pavada hasta que se te rompe algo un sábado.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ opiniones ============ -->
+<section>
+  <div class="caja">
+    <span class="rotulo">Opiniones de Google</span>
+    <h2>4,6 sobre 561.</h2>
+    <p class="sub">Textuales, de la ficha de Google de La Curva 46 Motos.</p>
+
+    <div class="ops">
+      <article class="op rev">
+        <div class="estrellas">★★★★★</div>
+        <p>“Te atienden bien, saben de lo que venden y el precio es acorde.”</p>
+        <cite>Opinión destacada en Google</cite>
+      </article>
+      <article class="op rev">
+        <div class="estrellas">★★★★★</div>
+        <p>“Buen surtido, buena atención y buenos precios.”</p>
+        <cite>Opinión destacada en Google</cite>
+      </article>
+      <article class="op rev">
+        <div class="estrellas">★★★★★</div>
+        <p>“Siempre consigo lo que necesito y siempre que fui estaba abierto.”</p>
+        <cite>Opinión destacada en Google</cite>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ donde ============ -->
+<section class="franja" id="donde">
+  <div class="caja">
+    <span class="rotulo">Dónde estamos</span>
+    <h2>Brandsen 1097,<br>Ituzaingó.</h2>
+
+    <div class="donde" style="margin-top:24px">
+      <div>
+        <div class="dato">
+          <svg><use href="#pin"/></svg>
+          <span><b>Cnel. Brandsen 1097</b><span>Ituzaingó, Provincia de Buenos Aires</span></span>
+        </div>
+        <div class="dato">
+          <svg><use href="#reloj"/></svg>
+          <span><b>Cerramos a las 18:30</b><span>Con corte al mediodía, de 13:30 a 15</span></span>
+        </div>
+        <div class="dato">
+          <svg><use href="#tel"/></svg>
+          <span><b><a href="tel:01146249663">011 4624-9663</a></b><span>Llamá y preguntá por tu repuesto</span></span>
+        </div>
+        <div class="dato">
+          <svg><use href="#moto"/></svg>
+          <span><b>Sobre Brandsen</b><span>A media cuadra de Coronel Quesada</span></span>
+        </div>
+      </div>
+
+      <div class="mapa rev">
+        <iframe title="Mapa de La Curva 46 Motos, Cnel. Brandsen 1097, Ituzaingó" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Cnel.%20Brandsen%201097,%20Ituzaing%C3%B3&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="caja">
+    <div>
+      <b>LA CURVA 46 MOTOS</b><br>
+      Cnel. Brandsen 1097, Ituzaingó · 011 4624-9663
+    </div>
+    <div class="firma">
+      Demo hecha por <a href="https://tunegocioenlasredes.com.ar" target="_blank" rel="noopener">Tu Negocio En Las Redes</a>.<br>
+      Página de muestra, sin publicar.
+    </div>
+  </div>
+</footer>
+
+<a class="btn btn-am flota" href="tel:01146249663" aria-label="Llamar a La Curva 46 Motos">
+  <svg><use href="#tel"/></svg> Llamar
+</a>
+
+<script>
+/* Aparecer al scrollear. NO se usa IntersectionObserver a proposito: con un
+   scroll rapido las secciones pasan entre frames, no se registran y quedan
+   invisibles para siempre. Ademas hay una red de seguridad a los 4 segundos. */
+(function () {
+  var els = [].slice.call(document.querySelectorAll('.rev'));
+  if (!els.length) return;
+  var pedido = false;
+  function revisar() {
+    pedido = false;
+    var alto = window.innerHeight;
+    for (var i = els.length - 1; i >= 0; i--) {
+      if (els[i].getBoundingClientRect().top < alto - 60) {
+        els[i].classList.add('in');
+        els.splice(i, 1);
+      }
+    }
+  }
+  function pedir() { if (!pedido) { pedido = true; requestAnimationFrame(revisar); } }
+  addEventListener('scroll', pedir, { passive: true });
+  addEventListener('resize', pedir, { passive: true });
+  revisar();
+  setTimeout(function () {
+    document.querySelectorAll('.rev').forEach(function (e) { e.classList.add('in'); });
+  }, 4000);
+})();
+</script>
+</body>
+</html>
